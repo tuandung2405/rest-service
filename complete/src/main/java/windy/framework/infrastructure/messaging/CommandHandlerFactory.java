@@ -6,6 +6,7 @@ import windy.framework.core.messaging.ICommandHandlerFactory;
 
 public class CommandHandlerFactory implements ICommandHandlerFactory {
 
+	
 	CommandHandlerAdapter adapter;
 
 	public CommandHandlerFactory(CommandHandlerAdapter adapter) {
