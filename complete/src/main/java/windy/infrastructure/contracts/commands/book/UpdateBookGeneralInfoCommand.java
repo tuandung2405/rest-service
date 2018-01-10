@@ -2,6 +2,9 @@ package windy.infrastructure.contracts.commands.book;
 
 import java.util.UUID;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class UpdateBookGeneralInfoCommand extends BookCommand {
 
 	private String title;

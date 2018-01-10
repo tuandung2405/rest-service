@@ -12,6 +12,7 @@ public class CommandBus implements ICommanBus {
 	
 	ICommandHandlerFactory commandHandlerFactory;
 	
+	@Autowired
 	public CommandBus(ICommandHandlerFactory commandHandlerFactory) {
 		this.commandHandlerFactory = commandHandlerFactory;
 	}
